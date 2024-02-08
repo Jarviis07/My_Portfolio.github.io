@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+padding: 0;
+
+}
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(back2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    filter: blur(2px);
+    
+}
+
+
+
+header{
+
+    background-color:rgb(244, 244, 244) ;
+    padding-left: 4cm;
+    padding-bottom: 2cm;
+    color:rgb(0, 0, 0) ;  
+    
+      
+}
+
+.myname {
+
+    padding-top: 0.7cm;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    float:left ;
+    text-transform:uppercase;
+   
+
+}
+
+
+.logo{
+    background-repeat: no-repeat;
+   position: absolute;
+   height:50px ;
+   left: 2.4cm;
+   padding-top: 0.4cm;
+   
+}
+
+.navbar ul {
+
+    list-style: none;
+    
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    float: right;
+    padding-right: 6cm;
+    padding-top: 0.3cm;
+    
+}
+.navbar li {
+
+    display: inline-block;
+}
+
+.navbar a {
+    
+    text-decoration: none;
+    color: black;
+    width: 100px;
+    display: block;
+    padding: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: rgb(70, 65, 65) 1px 1px 10px;
+    
+}
+
+a#menu:hover {
+
+    color:black;
+    text-shadow: 8px 10px 10px;
+      
+}
+
+.intro {
+
+    text-align: center;
+    font-style: italic;
+    letter-spacing: 10px;
+    font-size: 48px;
+    padding-top: 5cm;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-shadow: black 1px 1px 3px;
+
+}
+.subintro {
+    text-align: center;
+    padding-left: 1cm;
+    letter-spacing: 2px;
+    font-size: 18px;
+    padding-top: 1cm;
+    text-transform: uppercase;
+    color: rgb(97, 96, 96);
+}
+
+.resume {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1cm;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 3px;
+    padding-top: 0.4cm;
+    padding-bottom: 0.4cm;   
+
+}
+
+.resume a {
+
+    text-decoration: none;
+    color: black;
+    text-shadow: 0.5px 0.5px 2px;
+}
+
+.back{
+    background-color:rgb(163, 158, 158);
+   
+    justify-content: center;
+    margin-left: 18.3cm;
+    margin-right: 18.5cm;
+    border-radius: 10%;
+    
+}
+.back:hover {
+     
+    
+    background-color:#237bc3be ;
+}
