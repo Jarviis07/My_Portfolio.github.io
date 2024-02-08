@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+padding: 0;
+
+}
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(back2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    filter: blur(2px);
+    
+}
+
+
+
+header{
+
+    background-color:rgb(244, 244, 244) ;
+    padding-left: 4cm;
+    padding-bottom: 2cm;
+    color:rgb(0, 0, 0) ;  
+    
+      
+}
+.myname {
+
+    padding-top: 0.7cm;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    float:left ;
+    text-transform:uppercase;
+   
+
+}
+.logo{
+    background-repeat: no-repeat;
+   position: absolute;
+   height:50px ;
+   left: 2.4cm;
+   padding-top: 0.4cm;
+   
+}
+
+.navbar ul {
+
+    list-style: none;
+    
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    float: right;
+    padding-right: 6cm;
+    padding-top: 0.3cm;
+    
+}
+.navbar li {
+
+    display: inline-block;
+}
+
+.navbar a {
+    
+    text-decoration: none;
+    color: black;
+    width: 100px;
+    display: block;
+    padding: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: rgb(70, 65, 65) 1px 1px 10px;
+    
+}
+
+a#menu:hover {
+
+    color:black;
+    text-shadow: 8px 10px 10px;
+      
+}
